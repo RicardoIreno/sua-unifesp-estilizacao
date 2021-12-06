@@ -1,0 +1,82 @@
+<style>
+:root { 
+  --my-h1:      #4b5357;
+  --menu-bg:    #4b5357; 
+  --menu-bg-d:    #3f4447; 
+  --menu-fg:    #f2f2f2; 
+  --header-bg: #215a36; 
+  --header-fg: #f2f2f2;
+  --mysearch:   #5d866c; 
+  --adressbar:  #f2f2f2;
+}
+
+/* h1 */
+.v-main .contents h1 {
+ color: var(--my-h1) !important; 
+}
+.v-main .contents h1:after { 
+  background: linear-gradient(90deg,var(--my-h1),rgba(255,255,255,0)) !important; 
+}
+
+
+/* ==== bg da barra lateral ==== */
+
+
+.v-application .blue.darken-3 {
+  background-color: var(--menu-bg-d) !important; 
+}
+
+.v-application .primary {
+   background-color: var(--menu-bg) !important; 
+   border-color: var(--menu-bg) !important; 
+}
+.comments-header { 
+  background-color: var(--menu-bg) !important; 
+}
+
+.__bar-is-vertical { 
+  background: rgba(255,255,255,.75) !important; 
+}
+
+/* cabeçalho do menu lateral */
+.v-application .blue.darken-2 {
+    background-color: var(--menu-bg) !important;
+    border-color: var(--menu-bg) !important;
+}
+
+/* fg da barra lateral */
+.theme--dark.v-icon { 
+  color: var(--menu-fg) !important; 
+}
+.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) { 
+  color: var(--menu-fg) !important; 
+}
+.theme--dark.v-subheader { 
+  color: var(--menu-fg) !important; 
+}
+
+/* bg do header */
+.v-application .black { 
+  background-color: var(--header-bg) !important; 
+}
+.theme--dark.v-text-field--solo > .v-input__control > .v-input__slot { 
+  background-color: var(--mysearch) !important; 
+}
+
+/* fg do header */
+.nav-header .theme--dark.v-icon { 
+  color: var(--header-fg) !important; 
+}
+
+
+/* barra de endereços */
+.v-application .grey.lighten-3 { 
+  background-color: var(--adressbar) !important; 
+}
+
+/* título comentários */
+.comments-header { 
+  color: var(--menu-fg) !important; 
+}
+
+</style>

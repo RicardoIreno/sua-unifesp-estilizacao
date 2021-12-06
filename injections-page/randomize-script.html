@@ -1,0 +1,23 @@
+<script>
+
+    const qtdAvatars = 16
+    const myAvatars = []
+
+    for (i= 0; i < qtdAvatars; i++ ) {
+      myAvatars[i] = `img/avatar_${i+1}.png`
+      console.log(myAvatars[i])
+    }
+
+
+    function getRandom(min,max) { 
+      return Math.floor(Math.random() * (max - min + 1)) + min
+    }  
+
+    window.onload = function(){
+      const theAvatar = document.getElementById("logoAvatar")
+      theAvatar.src = myAvatars[ getRandom(0, myAvatars.length - 1) ]
+    }
+  
+
+
+  </script>

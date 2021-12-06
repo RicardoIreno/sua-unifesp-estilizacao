@@ -1,0 +1,50 @@
+$palette: (
+  red:          #f44336,
+  pink:         #e91e63,
+  purple:       #9c27b0,
+  indigo:       #3f51b5,
+  blue:         #2196f3,
+  cyan:         #00bcd4,
+  teal:         #009688,
+  green:        #4caf50,
+  lime:         #cddc39,
+  amber:        #ffc107,
+  orange:       #ff9800,
+  brown:        #795548,
+  grey:         #9e9e9e,
+  white:        #fff,
+  mono:         #48495C
+);
+
+@each $k, $color in $palette {
+  .cardc-#{$k} {
+
+    a {
+      color: $color !important;
+      background-color: lighten($color, 30%) !important;
+    }
+    
+    i {  
+      color: lighten($color, 35%) !important;
+      background-color: lighten($color, 20%) !important;
+    }
+    
+  }
+}
+
+
+$palette2: (
+	
+	footer-bg:      #5D866C,
+	footer-fg:      #EAEAEA,
+	footer-link:    #EAEAEA,
+	footer-hover:   #D4DFD8,
+	footer-border:  #A5C698,
+
+	btn-1-bg: 	 #41b8eb,
+	btn-1-fg: 	 #fff,
+	btn-1-bd:			#fff,
+	btn-1-hover: #a1e3ff 
+
+);
+
