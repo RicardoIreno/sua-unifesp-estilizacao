@@ -85,10 +85,6 @@ Específicas para a página inicial:
 - afeta todas as tags `<a>` e `<i>` que estiverem no container
 
 
-## Pasta Estilos-src
-
-Aplicação em Jekyll que gera as classes criadas neste projeto.
-
 
 ## Gerando classes de cores com SASS
 
@@ -128,3 +124,10 @@ $palette: (
   }
 }
 ```
+
+
+Visite a SUA Unifesp: <https://sua.unifesp.br>  
+
+*Obrigado!*
+
+[Ricardo Ireno](https://github.com/RicardoIreno/)
